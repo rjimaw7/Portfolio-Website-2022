@@ -27,6 +27,8 @@ body {
   font-family: "Bebas Neue", cursive;
 }
 
+
+
 .container {
   max-width: var(--max-width);
   margin: auto;
@@ -81,6 +83,11 @@ body {
   font-family: Inter, "Inter UI";
 }
 
+/* .showcase-btn{
+  
+  display: flex;
+} */
+
 @keyframes fadeInBottom {
   0% {
     transform: translateY(20px);
@@ -121,17 +128,23 @@ body {
   font-weight: bold;
   font-size: 1.125rem;
   cursor: pointer;
+  margin-right: 1rem;
 }
+
+
 
 .btn-work:hover {
   background-color: #222;
   color: #fff;
+
 }
 
-.btn-resume:hover {
+
+.btn-resume:hover,.btn-resume a:hover{
   background-color: #222;
   color: #fff;
 }
+
 
 .showcase-btn {
   margin-top: 2rem;
@@ -400,8 +413,8 @@ image-carousel:hover::part(controls) {
 
 /* ************************* ABOUT.HTML ********************** */
 
-#about {
-}
+/* #about {
+} */
 
 #about h1 {
   cursor: default;
