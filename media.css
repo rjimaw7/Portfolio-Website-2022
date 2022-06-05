@@ -1,0 +1,174 @@
+@media all and (max-width: 480px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav {
+    border-bottom: 1px dotted #222;
+  }
+
+  .showcase .showcase-name {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: -2rem;
+  }
+
+  #showcase .hero {
+    font-size: 3rem;
+  }
+
+  .showcase-btn button {
+    display: block;
+  }
+
+  .btn-work {
+    margin-bottom: 0.5rem;
+  }
+
+  #carousel {
+    margin-top: 4rem;
+  }
+
+  image-carousel img {
+    width: 366px;
+    height: 235px;
+   object-fit:cover;
+   object-position:50% 50%;
+    
+  }
+
+  #carousel h2 {
+    font-size: 2.5rem !important;
+  }
+
+  #carousel p {
+    font-size: 1.125rem;
+  }
+
+  #projects h3 {
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+
+  .projects .work-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  #footer h4 {
+    font-size: 2.5rem !important;
+  }
+
+  /* ABOUT  */
+
+  #about h1 {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #about p {
+    font-size: 1.125rem;
+  }
+
+  #tools h3 {
+    font-size: 2.5rem;
+  }
+
+  .tools-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tool {
+    padding: 1rem;
+    border-bottom: 1px dotted #fff;
+  }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #nav {
+    border-bottom: 1px dotted #222;
+  }
+
+  /* ABOUT  */
+
+  #about h1 {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #about p {
+    font-size: 1.125rem;
+  }
+
+  #tools h3 {
+    font-size: 2.5rem;
+  }
+
+  .tools-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .tool {
+    padding: 1rem;
+    border-bottom: 1px dotted #fff;
+  }
+
+  .showcase .showcase-name {
+    font-size: 1.2rem !important;
+    text-align: center;
+    margin-top: -2rem;
+  }
+
+  #showcase .hero {
+    font-size: 3rem;
+  }
+
+  .showcase-btn button {
+    display: block;
+  }
+
+  .btn-work {
+    margin-bottom: 0.5rem;
+  }
+
+  #carousel {
+    margin-top: 4rem;
+  }
+
+  image-carousel img {
+    width: 480px;
+    height: 235px;
+  }
+
+  #carousel h2 {
+    font-size: 2.5rem !important;
+  }
+
+  #carousel p {
+    font-size: 1.125rem;
+  }
+
+  #projects h3 {
+    font-size: 2.5rem !important;
+    text-align: center;
+  }
+
+  .projects .work-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  #footer h4 {
+    font-size: 2.5rem !important;
+  }
+}
